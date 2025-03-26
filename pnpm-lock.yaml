@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 19.48.1
-        version: 19.48.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
+        specifier: 19.58.0
+        version: 19.58.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
       '@cdktf/provider-time':
-        specifier: 10.2.1
-        version: 10.2.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
+        specifier: 10.3.0
+        version: 10.3.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
       '@scalereal/terraform-aws-vpc':
         specifier: 1.0.3
         version: 1.0.3
@@ -217,8 +217,8 @@ packages:
       cdktf: ^0.20.0
       constructs: ^10.3.0
 
-  '@cdktf/provider-aws@19.48.1':
-    resolution: {integrity: sha512-rXbYIGBBlflSekn/Eg3bjbV17hw+evTZezEWLiHtaGp74XiNNC1gBObaC10O99/8weZRRsPbJbA4SgbxxVBTWA==}
+  '@cdktf/provider-aws@19.58.0':
+    resolution: {integrity: sha512-2bBt5++4u8qhrjOLVrgbVLQWe8jvP1gpTHqsZiobW6K56JigDAbPuL/N4/twIzjKT3UwVFdUkvWvRIByIjiNKg==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -226,6 +226,13 @@ packages:
 
   '@cdktf/provider-time@10.2.1':
     resolution: {integrity: sha512-I4hRjCOS2Kv2TqGxpZojtkpjVMkj9mb9iZZ3mdlKrAC3GGTtqpiIgNLQ3rLh7QiOYPivbaiYiUCFFvLDExgWJA==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      cdktf: ^0.20.0
+      constructs: ^10.3.0
+
+  '@cdktf/provider-time@10.3.0':
+    resolution: {integrity: sha512-f173BwAmP9jkzdohYA5dtBmz2uyB74PflxYVu8hpRmfJGIOe8Ffn9yQreuz99Xlbfa4YDZQAL+moVNmAVhpaZw==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -1486,12 +1493,17 @@ snapshots:
       cdktf: 0.20.11(constructs@10.4.2)
       constructs: 10.4.2
 
-  '@cdktf/provider-aws@19.48.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
+  '@cdktf/provider-aws@19.58.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       cdktf: 0.20.11(constructs@10.4.2)
       constructs: 10.4.2
 
   '@cdktf/provider-time@10.2.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
+    dependencies:
+      cdktf: 0.20.11(constructs@10.4.2)
+      constructs: 10.4.2
+
+  '@cdktf/provider-time@10.3.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       cdktf: 0.20.11(constructs@10.4.2)
       constructs: 10.4.2
