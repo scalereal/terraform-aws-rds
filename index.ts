@@ -116,7 +116,6 @@ export class RdsModule extends Construct {
         preferredBackupWindow: backupWindow,
         preferredMaintenanceWindow: maintenanceWindow,
         skipFinalSnapshot: true,
-        storageType: "gp3",
         storageEncrypted: true,
         dbSubnetGroupName: dbSubnetGroup.name,
         vpcSecurityGroupIds: [this.securityGroup.id],
