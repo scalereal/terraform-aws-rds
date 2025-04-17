@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 19.58.0
-        version: 19.58.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
+        specifier: 19.60.1
+        version: 19.60.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
       '@cdktf/provider-time':
         specifier: 10.3.0
         version: 10.3.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
       '@scalereal/terraform-aws-vpc':
-        specifier: 1.0.4
-        version: 1.0.4
+        specifier: 1.0.5
+        version: 1.0.5
       cdktf:
         specifier: ^0.20.11
         version: 0.20.11(constructs@10.4.2)
@@ -210,8 +210,8 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@cdktf/provider-aws@19.58.0':
-    resolution: {integrity: sha512-2bBt5++4u8qhrjOLVrgbVLQWe8jvP1gpTHqsZiobW6K56JigDAbPuL/N4/twIzjKT3UwVFdUkvWvRIByIjiNKg==}
+  '@cdktf/provider-aws@19.60.1':
+    resolution: {integrity: sha512-1gDbFDQQI+r6IakE1Byojye6BWd8zUoqft5sqzhpY2UW86O3I5n4H1UmPbkZm9vwjxgm6PKTTlnBxxeHlSx44A==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -323,8 +323,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@scalereal/terraform-aws-vpc@1.0.4':
-    resolution: {integrity: sha512-OJCKAWJd9wSG3ebOdUTRRN2daSUCFD/Nn8v0ySY+cp+1E28Oy3icMjO1b/bpt02BxQHHZbgkpMho5O6vuk7d0Q==}
+  '@scalereal/terraform-aws-vpc@1.0.5':
+    resolution: {integrity: sha512-dZY51W96KhIzv56GKmTYIC3zUYwPp4g+K6YXOmmzrfoycKfTkFwYRaI9YQJUuFA8Tkh2dWkHsTXYNuJ0HlpOYA==}
     engines: {node: '>=20.0'}
 
   '@sinclair/typebox@0.27.8':
@@ -1474,7 +1474,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@cdktf/provider-aws@19.58.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
+  '@cdktf/provider-aws@19.60.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       cdktf: 0.20.11(constructs@10.4.2)
       constructs: 10.4.2
@@ -1682,9 +1682,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@scalereal/terraform-aws-vpc@1.0.4':
+  '@scalereal/terraform-aws-vpc@1.0.5':
     dependencies:
-      '@cdktf/provider-aws': 19.58.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
+      '@cdktf/provider-aws': 19.60.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
       '@cdktf/provider-time': 10.3.0(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
       cdktf: 0.20.11(constructs@10.4.2)
       constructs: 10.4.2

@@ -1,6 +1,6 @@
 {
   "name": "@scalereal/terraform-aws-rds",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "BSD-3-Clause",
@@ -24,9 +24,9 @@
     "node": ">=20.0"
   },
   "dependencies": {
-    "@cdktf/provider-aws": "19.58.0",
+    "@cdktf/provider-aws": "19.60.1",
     "@cdktf/provider-time": "10.3.0",
-    "@scalereal/terraform-aws-vpc": "1.0.4",
+    "@scalereal/terraform-aws-vpc": "1.0.5",
     "cdktf": "^0.20.11",
     "constructs": "^10.4.2"
   },

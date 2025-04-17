@@ -33,6 +33,7 @@ export class RdsModule extends Construct {
   public readonly username: string;
   public readonly password: string;
   public readonly securityGroup: SecurityGroup;
+  public readonly arn: string;
 
   constructor(scope: Construct, id: string, config: RdsModuleConfig) {
     super(scope, id);
@@ -137,6 +138,7 @@ export class RdsModule extends Construct {
         value: auroraCluster.endpoint,
       });
       this.rdsEndpoint = auroraCluster.endpoint;
+      this.arn = auroraCluster.arn;
     } else {
       // Create a standard RDS Instance
       const rdsInstance = new DbInstance(this, "rds-instance", {
@@ -164,6 +166,7 @@ export class RdsModule extends Construct {
         value: rdsInstance.endpoint,
       });
       this.rdsEndpoint = rdsInstance.endpoint;
+      this.arn = rdsInstance.arn;
     }
     this.username = username;
     this.password = password;
