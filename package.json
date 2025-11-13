@@ -28,7 +28,7 @@
     "@cdktf/provider-time": "11.0.0",
     "@scalereal/terraform-aws-vpc": "1.0.5",
     "cdktf": "0.21.0",
-    "constructs": "^10.4.3"
+    "constructs": "10.4.3"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
